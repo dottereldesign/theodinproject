@@ -1,0 +1,6 @@
+{
+    "devDependencies": {
+        "prettier": "^2.5.1",
+        "prettier-config-springload": "^1.0.3"
+    }
+}
