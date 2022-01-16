@@ -1,7 +1,28 @@
-* {
-    background-color: blue;
+.flex__box {
+    width: 200px;
+    height: 100px;
+    margin: 10px;
 }
 
-.card {
-    font-family: Arial, Helvetica, sans-serif;
+.flex {
+    display: flex;
+    &__box--orange {
+        background-color: orange;
+    }
+
+    &__box--red {
+        background-color: red;
+    }
+
+    &__box--blue {
+        background-color: blue;
+    }
+
+    &__box--yellow {
+        background-color: yellow;
+    }
+
+    &__box--purple {
+        background-color: purple;
+    }
 }
