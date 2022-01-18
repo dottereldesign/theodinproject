@@ -1,13 +1,15 @@
-.flex__box {
-  width: 200px;
-  height: 100px;
-  margin: 10px;
-}
-
 .flex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.flex__box {
+  width: 400px;
+  height: 100px;
+  margin: 10px;
 }
 
 .flex__box--orange {
