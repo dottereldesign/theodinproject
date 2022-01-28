@@ -31,4 +31,18 @@
 .flex__box--purple {
   background-color: purple;
 }
+
+.test {
+  width: 400px;
+  position: relative;
+}
+
+.test__color {
+  background-color: purple;
+  opacity: 0.25;
+  width: 400px;
+  height: 570px;
+  position: absolute;
+  top: 7px;
+}
 /*# sourceMappingURL=style.css.map */
