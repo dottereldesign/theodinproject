@@ -32,9 +32,12 @@
   background-color: purple;
 }
 
+.image {
+  position: relative;
+}
+
 .test {
   width: 400px;
-  position: relative;
 }
 
 .test__color {
@@ -43,6 +46,6 @@
   width: 400px;
   height: 570px;
   position: absolute;
-  top: 7px;
+  top: 0;
 }
 /*# sourceMappingURL=style.css.map */
