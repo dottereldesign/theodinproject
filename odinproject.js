@@ -1,4 +1,3 @@
-let max = 57;
-let actual = max - 13;
+let huh = 1 === '1';
 
-console.log(actual);
+console.log(huh);
