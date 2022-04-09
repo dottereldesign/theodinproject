@@ -54,6 +54,14 @@ let myText = 'I am a string';
 let myString = myText.replace('string', 'a peanut.');
 console.log(myString);
 
-// savebackup
-// WSL2 not recognizing SSH
-// SCSS CHECK
+function favoriteAnimal(animal) {
+    console.log(animal + ' is my favorite animal!');
+}
+
+favoriteAnimal('Giraffe');
+
+function favouritecat(cat) {
+    console.log(cat + ' is my favourite cat!');
+}
+
+favouritecat('Saffy');
