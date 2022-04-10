@@ -82,3 +82,53 @@ function showMessage(dad) {
     console.log(dad + ' is the best.');
 }
 showMessage('Mark');
+
+function showMessage(from, text) {
+    // parameters: from, text
+    console.log(from + ': ' + text);
+}
+showMessage('Ann', 'Hello!'); // Ann: Hello! (*)
+showMessage('Ann', "What's up?"); // Ann: What's up? (**)
+
+function showMessage(from, text) {
+    from = '*' + from + '*'; // make "from" look nicer
+    console.log(from + ': ' + text);
+}
+let from = 'Ann';
+showMessage(from, 'Hello'); // *Ann*: Hello
+
+// the value of "from" is the same, the function modified a local copy
+console.log(from); // Ann
+
+function showMessage(from, text = 'no text given') {
+    console.log(from + ': ' + text);
+}
+showMessage('Ann', 'Hello'); // Ann: no text given
+
+function add(a, b) {
+    return a + b;
+}
+
+function average(a, b) {
+    return add(a, b) / 2;
+}
+
+let x = average(10, 20);
+
+// Function Declaration
+function sum(a, b) {
+    return a + b;
+}
+sum(5, 6);
+
+//
+//
+//
+//
+//
+function sum(a, b) {
+    return a + b;
+}
+
+let result = sum(1, 2);
+console.log(result); // 3
