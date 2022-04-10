@@ -60,8 +60,25 @@ function favoriteAnimal(animal) {
 
 favoriteAnimal('Giraffe');
 
+// cat is the pramameter
+// Saffy is the argument
 function favouritecat(cat) {
     console.log(cat + ' is my favourite cat!');
 }
-
 favouritecat('Saffy');
+
+let jack = 'eric';
+function bestfriend(friend) {
+    console.log(friend + ' is my bestfriend.');
+}
+bestfriend(jack);
+
+function showMessage(hello) {
+    console.log(hello + ', my name is Jamie.');
+}
+showMessage('Sup');
+
+function showMessage(dad) {
+    console.log(dad + ' is the best.');
+}
+showMessage('Mark');
