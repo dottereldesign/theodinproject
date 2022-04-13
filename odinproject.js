@@ -137,24 +137,47 @@ const animals = ['ant', 'bison', 'camel', 'duck', 'elephant'];
 
 console.log(animals.slice(2));
 
-//
-// Write a function called add7 that takes one number and returns that number + 7.
+// 1. Write a function called add7 that takes one number and returns that number + 7.
 function addSeven(number) {
     return number + 7;
 }
 alert(addSeven(44));
 
 //
-// Write a function called multiply that takes 2 numbers and returns their product.
+// 2. Write a function called multiply that takes 2 numbers and returns their product.
 function multiply(number1, number2) {
     return number1 * number2;
 }
 alert(multiply(2, 2));
 
 //
-// Write a function called capitalize that takes a string and returns that string with only the first letter capitalized. Make sure that it can take strings that are lowercase, UPPERCASE or BoTh.
+// 3. Write a function called capitalize that takes a string and returns that string with only the first letter capitalized. Make sure that it can take strings that are lowercase, UPPERCASE or BoTh.
 function capitalize(sentence) {
     return sentence.charAt(0).toUpperCase() + sentence.slice(1).toLowerCase();
 }
-
 alert(capitalize("Hi, I'm Jamie."));
+
+// 4. Write a function called lastLetter that takes a string and returns the very last letter of that string:
+// lastLetter("abcd") should return "d"
+function lastletter(string) {
+    return string.slice(-1);
+}
+
+let answer = parseInt(
+    prompt('Please enter the number you would like to FizzBuzz up to: '),
+);
+for (let i = 1; i <= answer; i++) {
+    if (i % 3 === 0 && i % 5 === 0) {
+        console.log('FizzBuzz');
+    } else if (i % 3 === 0) {
+        console.log('Fizz');
+    } else if (i % 5 === 0) {
+        console.log('Buzz');
+    } else {
+        console.log(i);
+    }
+}
+
+const a = 'Hello';
+const b = 'World';
+console.log(c);
