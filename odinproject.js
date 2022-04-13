@@ -180,4 +180,4 @@ for (let i = 1; i <= answer; i++) {
 
 const a = 'Hello';
 const b = 'World';
-console.log(c);
+window.console.log(c);
