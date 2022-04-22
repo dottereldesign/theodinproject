@@ -12,6 +12,14 @@ const repeatString = function (string, num) {
     }
 };
 
+// Function that returns a string reversed.
+const reverseString = function (string) {
+    let splitString = string.split('');
+    let reverseArray = splitString.reverse();
+    let joinArray = reverseArray.join('');
+    return (string = joinArray);
+};
+
 // Function that takes an Array and then removes the number from it which is parsed through.
 function removeFromArray(Array, Num) {
     Num = Array.splice(Num - 1, 1);
