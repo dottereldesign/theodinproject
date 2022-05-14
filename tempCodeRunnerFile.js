@@ -1,7 +1,7 @@
 function count(number) {
     for (let i = 1; i < number; i += 1) {
-        console.log(i + ' wow');
+        console.log(i + 'fsdfsdf');
     }
 }
 
-count(10);
+count(20);
